@@ -13,7 +13,12 @@
     "client:dev": "cd client && npm run dev",
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install && npm run build",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run --component && cypress run --e2e",
+    "test:component": "cypress run --component",
+    "test:e2e": "cypress run --e2e"
   },
   "keywords": [],
   "author": "",
